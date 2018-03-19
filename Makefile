@@ -2,7 +2,7 @@ FILE=poster
 
 all: $(FILE).pdf
 
-$(FILE).pdf: *.tex Makefile poster.bib
+$(FILE).pdf: *.tex Makefile *.bib
 	make pdf
 	make pdf
 	@while grep ''Rerun to get' to get' $(FILE).log >/dev/null 2>&1 ; do \
@@ -21,5 +21,5 @@ distclean:
 	rm -f $(FILE).pdf
 
 rasterized:
-	gs -sDEVICE=png16m -r400 -o poster.png poster.pdf
-	convert poster.png -rotate 90 poster_rasterized.pdf
+	gs -sDEVICE=png16m -r400 -o $(FILE).png $(FILE).pdf
+	convert $(FILE).png -rotate 90 $(FILE)_rasterized.pdf

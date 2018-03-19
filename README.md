@@ -9,7 +9,7 @@ Generalized 3D fragmentation index derived from lidar point clouds.
 In: Open Geospatial Data, Software and Standards 2017 2:9.
 https://doi.org/10.1186/s40965-017-0021-8
 
-# Where the Poster was Presented
+## Where the Poster was Presented
 
 * NCSU CNR Graduate Research Symposium, February 2, 2018
 
