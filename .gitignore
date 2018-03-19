@@ -1,0 +1,16 @@
+*~
+*-blx.bib
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.run.xml
+*.toc
+*.backup
+*.lof
+*.lot
+
+poster.pdf
+poster.png
+poster_rasterized.pdf
